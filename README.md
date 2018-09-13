@@ -2,12 +2,12 @@
 
 USO
 
-É preciso configurar a interface de rede, para isso abra o arquivo com o seu editor preferido e substitua o IP do host pelo IP do com putador
+É preciso configurar a interface de rede, para isso abra o arquivo com o seu editor preferido e substitua o IP do host pelo IP do computador
 
 ./buildroot/custom-scripts/S41network-config
 
-Edite as linhas /sbin/route add -host <IP-DO-HOST> dev eth0
-  	            /sbin/route add default gw <IP-DO-HOST>
+Edite as linhas /sbin/route add -host "IP-DO-HOST" dev eth0
+  	            /sbin/route add default gw "IP-DO-HOST"
 
 Para instalar entre na pasta buildroot e digite o comando:
 
