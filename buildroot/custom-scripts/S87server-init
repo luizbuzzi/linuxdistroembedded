@@ -1,0 +1,4 @@
+#!/bin/sh
+
+python /opt/mon-server/server.py&
+
