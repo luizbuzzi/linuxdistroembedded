@@ -25,3 +25,7 @@ sudo qemu-system-i386 --device e1000,netdev=eth0,mac=aa:bb:cc:dd:ee:ff \
   	--hda output/images/rootfs.ext2 \
   	--nographic \
   	--append "console=ttyS0 root=/dev/sda"     
+
+Após isso, o sistema já vai estar rodando, podendo ser acessado pelo host em um navegador de sua preferência com o link:
+
+http://192.168.1.10:8080
