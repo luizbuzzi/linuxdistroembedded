@@ -29,3 +29,5 @@ sudo qemu-system-i386 --device e1000,netdev=eth0,mac=aa:bb:cc:dd:ee:ff \
 Após isso, o sistema já vai estar rodando, podendo ser acessado pelo host em um navegador de sua preferência com o link:
 
 http://192.168.1.10:8080
+
+Sempre que desejar atualizar os dados, basta atualizar a página.
